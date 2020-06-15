@@ -134,3 +134,5 @@ gulp.task("default", ["browser-sync"], function () {
         gulp.start("images", reload);
     });
 });
+
+gulp.task('build', ['html', 'css', 'js', 'images']);
